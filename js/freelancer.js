@@ -38,20 +38,6 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(function(){
-     $(".name").typed({
-       strings: ["Wentworth Computer Science Society <hr> "],
-       typeSpeed: 50,
-       startDelay: 2000,
-       cursorChar: "_",
-       callback: function(){
-         $('.name').css('color','#d2202f')
-         gotoSkills();
-       },
-     });
- });
-
- function gotoSkills(){
-   $('.typed-cursor').hide();
    $('.skills').typed({
      strings: ["We Are "],
      typeSpeed: 50,
@@ -61,7 +47,7 @@ $(function(){
        skills();
      }
    });
- }
+ });
 
  function skills(){
    $('.typed-cursor').hide();
@@ -73,10 +59,10 @@ $(function(){
      cursorChar: "_",
      loop:true,
      preStringTyped: function() {
-       $('#skills').css('color','#00ff00')
+       $('#skills').css('color','#040509')
      },
      onStringTyped: function() {
-       $('#skills').css('color','#ffab19')
+       $('#skills').css('color','#d2192b')
      }
    });
  }

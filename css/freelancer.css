@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    background: #000;
+    background: #bcbdc1;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;;
@@ -26,7 +26,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ffab19;
+    color: #040502;
 }
 
 h1,
@@ -97,8 +97,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -110,20 +110,13 @@ header img {
 header .intro-text {
   display: block;
   text-align: center;
+  padding-top: 15vh;
 }
 
-header .intro-text .name {
-    display: inline;
-    color: #00ff00;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 3em;
-    font-weight: 700;
-}
 
 header .intro-text .skills {
     text-align: center;
-    color: #00ff00;
+    color: #040509;
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 600;
@@ -131,7 +124,7 @@ header .intro-text .skills {
 
 header .typed-cursor{
     display: inline;
-    color: #00ff00;
+    color: #040509;
     text-align: center;
     font-size: 2em;
     opacity: 1;
@@ -145,7 +138,7 @@ header .typed-cursor{
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 600;
-  color: #00ff00;
+  color: #040509;
 }
 
 @media(min-width:768px) {
